@@ -1,0 +1,20 @@
+---
+title: "Chapter 2"
+author: "Jack Rellamas"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Create a matrix
+```{r}
+x <- matrix(data = c(1, 2, 3, 4), nrow = 2, ncol = 2)
+x
+```
+
+# Create 50 Random Variables & Plot
+```{r}
+x <- rnorm(50)
+y <- rnorm(50)
+plot(x, y, xlab = "x-axis", ylab = "y-axis", main = 'x vs. y plot')
+```
+
